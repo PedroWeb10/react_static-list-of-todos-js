@@ -1,6 +1,6 @@
 // Add the required props
 export const TodoInfo = ({ todo }) => (
-  <>
+
     <article
       key={todo.id}
       className={`TodoInfo ${todo.completed ? 'TodoInfo--completed' : ''}`}
@@ -10,6 +10,6 @@ export const TodoInfo = ({ todo }) => (
         {todo.user.name}
       </a>
     </article>
-    ;
-  </>
+
+
 );
